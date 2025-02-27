@@ -1,0 +1,120 @@
+
+body{
+	font-family: "calibri";
+    font-weight: 100;
+    background: black;
+}
+
+.title{
+    background: white;
+    text-align: center;
+    padding:2px;
+}
+
+.feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.post{
+    background-color: white;
+    margin:20 auto;
+    width:500px;
+}
+
+.post-header{
+    height: 50;
+}
+.post-header h2{
+    margin:20px 0 0 0;
+}
+.post-header p{
+    margin:10px 0 0 0; 
+}
+
+.user_picture{
+    display:flex;
+    float: left;
+    margin: 15px 5px;
+}
+
+.user_picture img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+}
+
+.post_title{
+    display:flex;
+    font-size:13px;
+}
+
+.user{
+    display:block;
+
+}
+
+.more{
+    display: flex;
+    float:right;
+    padding:15 15 0 0;
+    font-size:20px;
+}
+
+.image_post{
+    width: 100%;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+.liked-by{
+    width: auto;
+    padding:0 20px;
+    display: flex;
+    font-size: 15px;
+    
+}
+.liked-by a{
+    font-weight: bold;
+    color:black;
+}
+
+.post_text{
+    width: auto;
+    padding:0 20px;
+    display: flex;
+    font-size: 15px;
+}
+
+.interactions{
+    font-size: 20px;
+    color: black;
+    padding: 0 0 0 20px;
+    float: inline;
+    display: inline;
+}
+
+.post-date{
+    display: inline;
+    float:inline-end;
+    font-size: 15px;
+    
+}
+.post-text-and-interactions h2{
+    margin: 0 10px;
+    padding:0;
+}
+.etiquetar{
+    float: right;
+    padding: 0 20 0 0;
+}
+.date_and_interactions{
+    padding: 10px 0 0 0
+}
