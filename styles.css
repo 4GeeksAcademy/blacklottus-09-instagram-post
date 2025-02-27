@@ -101,12 +101,6 @@ body{
     display: inline;
 }
 
-.post-date{
-    display: inline;
-    float:inline-end;
-    font-size: 15px;
-    
-}
 .post-text-and-interactions h2{
     margin: 0 10px;
     padding:0;
