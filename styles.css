@@ -1,6 +1,5 @@
-
 body{
-	font-family: "calibri";
+	font-family: "Roboto";
     font-weight: 100;
     background: black;
 }
@@ -31,20 +30,17 @@ body{
     margin:20px 0 0 0;
 }
 .post-header p{
-    margin:10px 0 0 0; 
+    margin: 5px 0 0 0; 
 }
 
 .user_picture{
     display:flex;
     float: left;
-    margin: 15px 5px;
+    margin: 20px 5px;
 }
 
 .user_picture img{
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    
+    width: 55px;    
 }
 
 .post_title{
@@ -60,8 +56,8 @@ body{
 .more{
     display: flex;
     float:right;
-    padding:15 15 0 0;
-    font-size:20px;
+    padding:30 15 0 0;
+    font-size:25px;
 }
 
 .image_post{
@@ -94,7 +90,7 @@ body{
 }
 
 .interactions{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     padding: 0 0 0 20px;
     float: inline;
